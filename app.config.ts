@@ -177,17 +177,17 @@ export default defineAppConfig({
         },
         {
           icon: 'lucide:twitter',
-          to: 'https://x.com/ZTL_UwU',
+          to: 'https://x.com/nlfts_dev',
           target: '_blank',
         },
         {
           icon: 'lucide-lab:butterfly',
-          to: 'https://bsky.app/profile/ztl-uwu.bsky.social',
+          to: 'https://bsky.app/profile/nlfts.dev',
           target: '_blank',
         },
         {
           icon: 'simple-icons:discord',
-          to: 'https://discord.gg/9P5HzAz8DT',
+          to: 'https://nlfts.dev/discord',
           target: '_blank',
         },
         {
@@ -207,14 +207,14 @@ export default defineAppConfig({
         {
           title: 'Star on GitHub',
           icon: 'lucide:star',
-          to: 'https://github.com/ZTL-UwU/shadcn-docs-nuxt',
+          to: 'https://github.com/nlfts/edu.nlfts.dev',
           target: '_blank',
           showLinkIcon: true,
         },
         {
           title: 'Create Issues',
           icon: 'lucide:circle-dot',
-          to: 'https://github.com/ZTL-UwU/shadcn-docs-nuxt/issues',
+          to: 'https://github.com/nlfts/edu.nlfts.dev/issues',
           target: '_blank',
           showLinkIcon: true,
         },
@@ -227,17 +227,17 @@ export default defineAppConfig({
         },
         {
           icon: 'lucide:twitter',
-          to: 'https://x.com/ZTL_UwU',
+          to: 'https://x.com/nlfts_dev',
           target: '_blank',
         },
         {
           icon: 'lucide-lab:butterfly',
-          to: 'https://bsky.app/profile/ztl-uwu.bsky.social',
+          to: 'https://bsky.app/profile/nlfts.dev',
           target: '_blank',
         },
         {
           icon: 'simple-icons:discord',
-          to: 'https://discord.gg/9P5HzAz8DT',
+          to: 'https://nlfts.dev/discord',
           target: '_blank',
         },
       ],
