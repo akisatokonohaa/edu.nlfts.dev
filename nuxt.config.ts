@@ -9,7 +9,6 @@ export default defineNuxtConfig({
     prerender: {
       crawlLinks: true,
       routes: ['/'],
-      // Route yang tidak punya halaman sama sekali — cegah crawl
       ignore: [
         '/sign-in',
         '/get-started',
@@ -19,19 +18,6 @@ export default defineNuxtConfig({
       ],
       failOnError: false,
     },
-  },
-
-  // Semua halaman di-prerender sebagai static HTML
-  // Kecuali /api/contact yang tetap sebagai serverless function
-  routeRules: {
-    '/**': { prerender: true },
-    '/api/contact': { prerender: false },
-    // Route yang tidak ada halamannya — kembalikan 404 static, jangan prerender
-    '/sign-in': { prerender: false },
-    '/get-started': { prerender: false },
-    '/pricing': { prerender: false },
-    '/docs': { prerender: false },
-    '/webinars': { prerender: false },
   },
 
   i18n: {
