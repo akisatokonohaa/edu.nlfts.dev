@@ -13,21 +13,15 @@ body:
   - type: markdown
     attributes:
       value: |
-        # Permohonan Penerbitan Blog
+        Silakan isi formulir berikut untuk mengajukan blog Anda ke platform EDU.
 
-        Terima kasih atas minat Anda untuk menerbitkan blog di EDU.
-
-        Mohon lengkapi seluruh informasi yang diminta pada formulir ini. Informasi yang lengkap akan membantu proses peninjauan berjalan lebih cepat dan akurat.
-
-        Setelah permohonan dikirimkan, mohon untuk tidak mengubah isi artikel yang diajukan hingga proses peninjauan selesai.
-
-        ---
+        Pastikan seluruh informasi yang diberikan benar dan dapat diverifikasi. Blog yang tidak dapat diakses atau tidak memenuhi persyaratan dapat ditolak.
 
   - type: input
     id: blog_title
     attributes:
       label: "Judul Blog"
-      description: "Masukkan judul blog yang akan diajukan."
+      description: "Masukkan judul blog yang diajukan."
       placeholder: "Contoh: Cara Menggunakan Resend di Nuxt.js"
     validations:
       required: true
@@ -36,30 +30,16 @@ body:
     id: blog_url
     attributes:
       label: "Alamat Blog"
-      description: "Masukkan alamat blog yang dapat diakses secara publik."
+      description: "Masukkan URL blog yang dapat diakses secara publik."
       placeholder: "https://example.com"
     validations:
       required: true
-
-  - type: markdown
-    attributes:
-      value: |
-        ## Persyaratan Dasar
-
-        Blog yang diajukan harus memenuhi ketentuan berikut:
-
-        - Sudah pernah diterbitkan sebelumnya.
-        - Dapat diakses melalui HTTPS.
-        - Dapat diakses secara publik tanpa pembatasan.
-        - Memuat konten blog yang sesuai dengan kategori yang dipilih.
-
-        Permohonan dapat ditolak apabila blog tidak dapat diakses atau tidak memenuhi ketentuan di atas.
 
   - type: checkboxes
     id: blog_categories
     attributes:
       label: "Kategori Blog"
-      description: "Pilih satu atau lebih kategori yang paling sesuai."
+      description: "Pilih satu atau lebih kategori yang sesuai."
       options:
         - label: "Teknologi"
         - label: "Pribadi"
@@ -74,16 +54,15 @@ body:
     id: blog_category_other
     attributes:
       label: "Kategori Lainnya"
-      description: "Isi bagian ini apabila Anda memilih kategori Lainnya."
+      description: "Isi jika memilih kategori Lainnya."
       placeholder: "Contoh: Keuangan"
 
   - type: textarea
     id: blog_description
     attributes:
       label: "Deskripsi Blog"
-      description: "Jelaskan secara singkat mengenai isi dan fokus utama blog Anda."
-      placeholder: |
-        Tuliskan ringkasan mengenai blog yang diajukan.
+      description: "Jelaskan secara singkat isi dan fokus blog Anda."
+      placeholder: "Tuliskan ringkasan blog yang diajukan."
     validations:
       required: true
 
@@ -91,15 +70,8 @@ body:
     id: blog_notes
     attributes:
       label: "Catatan Tambahan"
-      description: "Informasi tambahan yang ingin disampaikan kepada tim peninjau."
-      placeholder: "Opsional"
-
-  - type: markdown
-    attributes:
-      value: |
-        ## Pernyataan Pemohon
-
-        Mohon pastikan seluruh informasi yang diberikan telah diperiksa sebelum mengirimkan permohonan.
+      description: "Opsional."
+      placeholder: "Informasi tambahan yang ingin disampaikan."
 
   - type: checkboxes
     id: confirmation
@@ -107,17 +79,8 @@ body:
       label: "Konfirmasi"
       description: "Centang seluruh pernyataan berikut."
       options:
-        - label: "Saya telah membaca dan memahami kriteria inklusi serta ketentuan yang berlaku."
-        - label: "Saya memahami bahwa konten yang diterbitkan di EDU menggunakan lisensi CC BY-NC."
-        - label: "Saya menyatakan bahwa seluruh informasi yang diberikan adalah benar dan akan memberi tahu apabila terdapat perubahan di kemudian hari."
+        - label: "Saya telah membaca dan memahami kriteria publikasi yang berlaku."
+        - label: "Saya memahami lisensi CC BY-NC yang digunakan oleh EDU."
+        - label: "Saya menyatakan bahwa informasi yang diberikan adalah benar."
     validations:
       required: true
-
-  - type: markdown
-    attributes:
-      value: |
-        ---
-
-        Setelah seluruh informasi diisi dengan benar, kirimkan formulir ini untuk memulai proses peninjauan.
-
-        Tim EDU akan meninjau permohonan Anda sesegera mungkin.
