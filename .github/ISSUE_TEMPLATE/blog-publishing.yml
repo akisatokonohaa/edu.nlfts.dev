@@ -1,6 +1,6 @@
 name: "Permohonan Menerbitkan Blog ke EDU"
 description: "Ajukan blog Anda untuk diterbitkan di platform EDU."
-title: ""
+title: "[Permohonan Blog] "
 
 labels:
   - "blog"
@@ -13,41 +13,58 @@ body:
   - type: markdown
     attributes:
       value: |
-        Silakan isi form berikut dengan teliti. Setelah mengirimkan blog, jangan mengubah konten artikel lagi. Setelah disetujui, jangan menutup issue sendiri, karena administrator akan menambahkan informasi ke basis data secara manual.
+        # Permohonan Penerbitan Blog
+
+        Terima kasih atas minat Anda untuk menerbitkan blog di EDU.
+
+        Mohon lengkapi seluruh informasi yang diminta pada formulir ini. Informasi yang lengkap akan membantu proses peninjauan berjalan lebih cepat dan akurat.
+
+        Setelah permohonan dikirimkan, mohon untuk tidak mengubah isi artikel yang diajukan hingga proses peninjauan selesai.
+
+        ---
 
   - type: input
     id: blog_title
     attributes:
       label: "Judul Blog"
-      description: "Contoh: Cara Menggunakan Resend di Nuxt.js"
-      placeholder: "ex: Cara Menggunakan Resend di Nuxtjs"
+      description: "Masukkan judul blog yang akan diajukan."
+      placeholder: "Contoh: Cara Menggunakan Resend di Nuxt.js"
     validations:
       required: true
 
   - type: input
     id: blog_url
     attributes:
-      label: "Situs Tempat Blog Berada"
-      description: "Harap gunakan URL HTTPS yang valid."
-      placeholder: "ex: https://nlfts.link"
+      label: "Alamat Blog"
+      description: "Masukkan alamat blog yang dapat diakses secara publik."
+      placeholder: "https://example.com"
     validations:
       required: true
 
   - type: markdown
     attributes:
       value: |
-        Peringatan: Blog setidaknya harus pernah diterbitkan di platform lain, harus berupa situs web HTTPS, dan harus dapat diakses. Situs yang tidak dapat diakses atau tidak memuat blog akan ditolak.
+        ## Persyaratan Dasar
+
+        Blog yang diajukan harus memenuhi ketentuan berikut:
+
+        - Sudah pernah diterbitkan sebelumnya.
+        - Dapat diakses melalui HTTPS.
+        - Dapat diakses secara publik tanpa pembatasan.
+        - Memuat konten blog yang sesuai dengan kategori yang dipilih.
+
+        Permohonan dapat ditolak apabila blog tidak dapat diakses atau tidak memenuhi ketentuan di atas.
 
   - type: checkboxes
     id: blog_categories
     attributes:
       label: "Kategori Blog"
-      description: "Pilih satu atau lebih kategori yang sesuai."
+      description: "Pilih satu atau lebih kategori yang paling sesuai."
       options:
         - label: "Teknologi"
         - label: "Pribadi"
         - label: "Developer"
-        - label: "Tips & Trik"
+        - label: "Tips dan Trik"
         - label: "Tutorial"
         - label: "Lainnya"
     validations:
@@ -56,34 +73,51 @@ body:
   - type: input
     id: blog_category_other
     attributes:
-      label: "Kategori Blog Lainnya"
-      description: "Jika Anda memilih opsi Lainnya, tulis kategori yang dimaksud."
-      placeholder: "ex: Keuangan"
+      label: "Kategori Lainnya"
+      description: "Isi bagian ini apabila Anda memilih kategori Lainnya."
+      placeholder: "Contoh: Keuangan"
 
   - type: textarea
     id: blog_description
     attributes:
       label: "Deskripsi Blog"
-      description: "Jelaskan secara singkat isi blog Anda."
-      placeholder: "ex: Blog ini membahas tentang cara menggunakan Resend di Nuxt.js."
+      description: "Jelaskan secara singkat mengenai isi dan fokus utama blog Anda."
+      placeholder: |
+        Tuliskan ringkasan mengenai blog yang diajukan.
     validations:
       required: true
 
   - type: textarea
     id: blog_notes
     attributes:
-      label: "Catatan"
-      description: "Jika ada hal lain yang ingin Anda sampaikan, tulis di sini."
-      placeholder: "ex: catatan."
+      label: "Catatan Tambahan"
+      description: "Informasi tambahan yang ingin disampaikan kepada tim peninjau."
+      placeholder: "Opsional"
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Pernyataan Pemohon
+
+        Mohon pastikan seluruh informasi yang diberikan telah diperiksa sebelum mengirimkan permohonan.
 
   - type: checkboxes
     id: confirmation
     attributes:
-      label: "Mohon Konfirmasi Hal Berikut"
-      description: "Centang semua poin berikut untuk melanjutkan."
+      label: "Konfirmasi"
+      description: "Centang seluruh pernyataan berikut."
       options:
-        - label: "Saya telah membaca dengan saksama kriteria inklusi dan bagian Tanya Jawab, serta memenuhi kriteria inklusi."
-        - label: "Saya memahami lisensi CC BY NC yang akan diterbitkan di EDU."
-        - label: "Informasi saya benar. Saya akan segera memberi tahu Anda jika ada perubahan, seperti URL yang diperbarui."
+        - label: "Saya telah membaca dan memahami kriteria inklusi serta ketentuan yang berlaku."
+        - label: "Saya memahami bahwa konten yang diterbitkan di EDU menggunakan lisensi CC BY-NC."
+        - label: "Saya menyatakan bahwa seluruh informasi yang diberikan adalah benar dan akan memberi tahu apabila terdapat perubahan di kemudian hari."
     validations:
       required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+
+        Setelah seluruh informasi diisi dengan benar, kirimkan formulir ini untuk memulai proses peninjauan.
+
+        Tim EDU akan meninjau permohonan Anda sesegera mungkin.
