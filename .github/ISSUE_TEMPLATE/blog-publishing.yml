@@ -1,8 +1,14 @@
-name: Permohonan Menerbitkan Blog ke EDU
-description: Ajukan blog Anda untuk diterbitkan di platform EDU.
+name: "Permohonan Menerbitkan Blog ke EDU"
+description: "Ajukan blog Anda untuk diterbitkan di platform EDU."
 title: "[Blog Submission] "
+
 labels:
-  - blog
+  - "blog"
+  - "pending-review"
+
+assignees:
+  - "davingm"
+
 body:
   - type: markdown
     attributes:
@@ -12,18 +18,18 @@ body:
   - type: input
     id: blog_title
     attributes:
-      label: Judul Blog*
-      description: Contoh: Cara Menggunakan Resend di Nuxt.js
-      placeholder: ex, Cara Menggunakan Resend di Nuxtjs
+      label: "Judul Blog*"
+      description: "Contoh: Cara Menggunakan Resend di Nuxt.js"
+      placeholder: "ex: Cara Menggunakan Resend di Nuxtjs"
     validations:
       required: true
 
   - type: input
     id: blog_url
     attributes:
-      label: Situs Tempat Blog Berada*
-      description: Harap gunakan URL HTTPS yang valid.
-      placeholder: ex, https://nlfts.link
+      label: "Situs Tempat Blog Berada*"
+      description: "Harap gunakan URL HTTPS yang valid."
+      placeholder: "ex: https://nlfts.link"
     validations:
       required: true
 
@@ -35,49 +41,49 @@ body:
   - type: checkboxes
     id: blog_categories
     attributes:
-      label: Kategori Blog*
-      description: Pilih satu atau lebih kategori yang sesuai.
+      label: "Kategori Blog*"
+      description: "Pilih satu atau lebih kategori yang sesuai."
       options:
-        - label: Teknologi
-        - label: Pribadi
-        - label: Developer
-        - label: Tips & Trik
-        - label: Tutorial
-        - label: Lainnya
+        - label: "Teknologi"
+        - label: "Pribadi"
+        - label: "Developer"
+        - label: "Tips & Trik"
+        - label: "Tutorial"
+        - label: "Lainnya"
     validations:
       required: true
 
   - type: input
     id: blog_category_other
     attributes:
-      label: Kategori Blog Lainnya
-      description: Jika Anda memilih opsi Lainnya, tulis kategori yang dimaksud.
-      placeholder: ex, Keuangan
+      label: "Kategori Blog Lainnya"
+      description: "Jika Anda memilih opsi Lainnya, tulis kategori yang dimaksud."
+      placeholder: "ex: Keuangan"
 
   - type: textarea
     id: blog_description
     attributes:
-      label: Deskripsi Blog*
-      description: Jelaskan secara singkat isi blog Anda.
-      placeholder: ex, Blog ini membahas tentang cara menggunakan Resend di Nuxt.js.
+      label: "Deskripsi Blog*"
+      description: "Jelaskan secara singkat isi blog Anda."
+      placeholder: "ex: Blog ini membahas tentang cara menggunakan Resend di Nuxt.js."
     validations:
       required: true
 
   - type: textarea
     id: blog_notes
     attributes:
-      label: Catatan
-      description: Jika ada hal lain yang ingin Anda sampaikan, tulis di sini.
-      placeholder: ex, catatan.
+      label: "Catatan"
+      description: "Jika ada hal lain yang ingin Anda sampaikan, tulis di sini."
+      placeholder: "ex: catatan."
 
   - type: checkboxes
     id: confirmation
     attributes:
-      label: Mohon Konfirmasi Hal Berikut*
-      description: Centang semua poin berikut untuk melanjutkan.
+      label: "Mohon Konfirmasi Hal Berikut*"
+      description: "Centang semua poin berikut untuk melanjutkan."
       options:
-        - label: Saya telah membaca dengan saksama kriteria inklusi dan bagian Tanya Jawab, serta memenuhi kriteria inklusi.
-        - label: Saya memahami lisensi CC BY NC yang akan diterbitkan di EDU.
-        - label: Informasi saya benar. Saya akan segera memberi tahu Anda jika ada perubahan, seperti URL yang diperbarui.
+        - label: "Saya telah membaca dengan saksama kriteria inklusi dan bagian Tanya Jawab, serta memenuhi kriteria inklusi."
+        - label: "Saya memahami lisensi CC BY NC yang akan diterbitkan di EDU."
+        - label: "Informasi saya benar. Saya akan segera memberi tahu Anda jika ada perubahan, seperti URL yang diperbarui."
     validations:
       required: true
