@@ -1,6 +1,6 @@
 name: "Permohonan Menerbitkan Blog ke EDU"
 description: "Ajukan blog Anda untuk diterbitkan di platform EDU."
-title: "[Permohonan Blog] "
+title: "[Blog Submission] "
 
 labels:
   - "blog"
@@ -13,38 +13,41 @@ body:
   - type: markdown
     attributes:
       value: |
-        Silakan isi formulir berikut untuk mengajukan blog Anda ke platform EDU.
-
-        Pastikan seluruh informasi yang diberikan benar dan dapat diverifikasi. Blog yang tidak dapat diakses atau tidak memenuhi persyaratan dapat ditolak.
+        Silakan isi form berikut dengan teliti. Setelah mengirimkan blog, jangan mengubah konten artikel lagi. Setelah disetujui, jangan menutup issue sendiri, karena administrator akan menambahkan informasi ke basis data secara manual.
 
   - type: input
     id: blog_title
     attributes:
-      label: "Judul Blog"
-      description: "Masukkan judul blog yang diajukan."
-      placeholder: "Contoh: Cara Menggunakan Resend di Nuxt.js"
+      label: "Judul Blog*"
+      description: "Contoh: Cara Menggunakan Resend di Nuxt.js"
+      placeholder: "ex: Cara Menggunakan Resend di Nuxtjs"
     validations:
       required: true
 
   - type: input
     id: blog_url
     attributes:
-      label: "Alamat Blog"
-      description: "Masukkan URL blog yang dapat diakses secara publik."
-      placeholder: "https://example.com"
+      label: "Situs Tempat Blog Berada*"
+      description: "Harap gunakan URL HTTPS yang valid."
+      placeholder: "ex: https://nlfts.link"
     validations:
       required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        Peringatan: Blog setidaknya harus pernah diterbitkan di platform lain, harus berupa situs web HTTPS, dan harus dapat diakses. Situs yang tidak dapat diakses atau tidak memuat blog akan ditolak.
 
   - type: checkboxes
     id: blog_categories
     attributes:
-      label: "Kategori Blog"
+      label: "Kategori Blog*"
       description: "Pilih satu atau lebih kategori yang sesuai."
       options:
         - label: "Teknologi"
         - label: "Pribadi"
         - label: "Developer"
-        - label: "Tips dan Trik"
+        - label: "Tips & Trik"
         - label: "Tutorial"
         - label: "Lainnya"
     validations:
@@ -53,34 +56,34 @@ body:
   - type: input
     id: blog_category_other
     attributes:
-      label: "Kategori Lainnya"
-      description: "Isi jika memilih kategori Lainnya."
-      placeholder: "Contoh: Keuangan"
+      label: "Kategori Blog Lainnya"
+      description: "Jika Anda memilih opsi Lainnya, tulis kategori yang dimaksud."
+      placeholder: "ex: Keuangan"
 
   - type: textarea
     id: blog_description
     attributes:
-      label: "Deskripsi Blog"
-      description: "Jelaskan secara singkat isi dan fokus blog Anda."
-      placeholder: "Tuliskan ringkasan blog yang diajukan."
+      label: "Deskripsi Blog*"
+      description: "Jelaskan secara singkat isi blog Anda."
+      placeholder: "ex: Blog ini membahas tentang cara menggunakan Resend di Nuxt.js."
     validations:
       required: true
 
   - type: textarea
     id: blog_notes
     attributes:
-      label: "Catatan Tambahan"
-      description: "Opsional."
-      placeholder: "Informasi tambahan yang ingin disampaikan."
+      label: "Catatan"
+      description: "Jika ada hal lain yang ingin Anda sampaikan, tulis di sini."
+      placeholder: "ex: catatan."
 
   - type: checkboxes
     id: confirmation
     attributes:
-      label: "Konfirmasi"
-      description: "Centang seluruh pernyataan berikut."
+      label: "Mohon Konfirmasi Hal Berikut*"
+      description: "Centang semua poin berikut untuk melanjutkan."
       options:
-        - label: "Saya telah membaca dan memahami kriteria publikasi yang berlaku."
-        - label: "Saya memahami lisensi CC BY-NC yang digunakan oleh EDU."
-        - label: "Saya menyatakan bahwa informasi yang diberikan adalah benar."
+        - label: "Saya telah membaca dengan saksama kriteria inklusi dan bagian Tanya Jawab, serta memenuhi kriteria inklusi."
+        - label: "Saya memahami lisensi CC BY NC yang akan diterbitkan di EDU."
+        - label: "Informasi saya benar. Saya akan segera memberi tahu Anda jika ada perubahan, seperti URL yang diperbarui."
     validations:
       required: true
