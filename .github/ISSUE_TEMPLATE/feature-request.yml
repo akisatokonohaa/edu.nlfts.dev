@@ -1,0 +1,38 @@
+name: Permintaan Fitur dan Umpan Balik
+description: Ajukan ide fitur baru atau berikan masukan untuk platform EDU.
+title: "[Feature Request] "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Silakan bagikan ide, saran, atau umpan balik Anda agar kami bisa terus meningkatkan platform.
+
+  - type: input
+    id: title
+    attributes:
+      label: Judul Saran*
+      placeholder: ex, Tambahkan filter kategori blog.
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Masalah atau Kebutuhan*
+      description: Apa yang ingin Anda perbaiki atau tambahkan?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Usulan Solusi
+      description: Jelaskan ide Anda secara singkat.
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Umpan Balik Tambahan
+      description: Tambahkan informasi atau contoh jika ada.

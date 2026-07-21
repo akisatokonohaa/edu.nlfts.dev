@@ -1,0 +1,44 @@
+name: Laporan Pengajuan Masalah
+description: Laporkan bug, error, atau masalah yang Anda temui pada platform EDU.
+title: "[Bug] "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Silakan jelaskan masalah yang Anda temui secara detail agar tim dapat memeriksanya dengan cepat.
+
+  - type: input
+    id: summary
+    attributes:
+      label: Ringkasan Masalah*
+      placeholder: ex, Halaman blog tidak bisa dibuka.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Langkah untuk Memperbanyak Masalah*
+      placeholder: 1. Buka halaman...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Yang Diharapkan
+      placeholder: ex, Halaman seharusnya tampil dengan benar.
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Yang Terjadi
+      placeholder: ex, Halaman menampilkan error 500.
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Informasi Tambahan
+      description: Browser, perangkat, atau URL yang terkait.

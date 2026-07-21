@@ -1,0 +1,18 @@
+name: Issue Kosong
+description: Gunakan template ini untuk membuat issue yang tidak termasuk kategori tertentu.
+title: "[General] "
+labels:
+  - needs-triage
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Template ini cocok untuk kebutuhan umum, pertanyaan, atau topik yang tidak sesuai dengan template lain.
+
+  - type: textarea
+    id: content
+    attributes:
+      label: Isi Issue*
+      description: Jelaskan kebutuhan atau pertanyaan Anda secara jelas.
+    validations:
+      required: true
