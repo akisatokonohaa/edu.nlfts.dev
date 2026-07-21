@@ -1,6 +1,6 @@
 name: "Permohonan Menerbitkan Blog ke EDU"
 description: "Ajukan blog Anda untuk diterbitkan di platform EDU."
-title: "[Blog Submission] "
+title: ""
 
 labels:
   - "blog"
@@ -18,7 +18,7 @@ body:
   - type: input
     id: blog_title
     attributes:
-      label: "Judul Blog*"
+      label: "Judul Blog"
       description: "Contoh: Cara Menggunakan Resend di Nuxt.js"
       placeholder: "ex: Cara Menggunakan Resend di Nuxtjs"
     validations:
@@ -27,7 +27,7 @@ body:
   - type: input
     id: blog_url
     attributes:
-      label: "Situs Tempat Blog Berada*"
+      label: "Situs Tempat Blog Berada"
       description: "Harap gunakan URL HTTPS yang valid."
       placeholder: "ex: https://nlfts.link"
     validations:
@@ -41,7 +41,7 @@ body:
   - type: checkboxes
     id: blog_categories
     attributes:
-      label: "Kategori Blog*"
+      label: "Kategori Blog"
       description: "Pilih satu atau lebih kategori yang sesuai."
       options:
         - label: "Teknologi"
@@ -63,7 +63,7 @@ body:
   - type: textarea
     id: blog_description
     attributes:
-      label: "Deskripsi Blog*"
+      label: "Deskripsi Blog"
       description: "Jelaskan secara singkat isi blog Anda."
       placeholder: "ex: Blog ini membahas tentang cara menggunakan Resend di Nuxt.js."
     validations:
@@ -79,7 +79,7 @@ body:
   - type: checkboxes
     id: confirmation
     attributes:
-      label: "Mohon Konfirmasi Hal Berikut*"
+      label: "Mohon Konfirmasi Hal Berikut"
       description: "Centang semua poin berikut untuk melanjutkan."
       options:
         - label: "Saya telah membaca dengan saksama kriteria inklusi dan bagian Tanya Jawab, serta memenuhi kriteria inklusi."
