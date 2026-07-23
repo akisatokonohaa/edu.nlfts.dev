@@ -16,7 +16,7 @@ announcement:
 Blog
 
 #description
-Read the latest articles and news about the project.
+Baca beberapa Artikel dan Blog yang di tulis para Pengembang kami
 ::
 
 ::card-group{:cols="3"}

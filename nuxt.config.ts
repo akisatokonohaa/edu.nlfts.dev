@@ -3,20 +3,18 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   extends: ['..'],
 
-  // Static Site Generation
+  // Full Static Site Generation — semua halaman di-prerender saat build
   ssr: true,
   nitro: {
     prerender: {
       crawlLinks: true,
       routes: ['/'],
-      ignore: [
-        '/sign-in',
-        '/get-started',
-        '/pricing',
-        '/docs',
-        '/webinars',
-      ],
       failOnError: false,
+    },
+    // Paksa semua route halaman jadi static HTML, kecuali API
+    routeRules: {
+      '/**': { prerender: true },
+      '/api/**': { prerender: false },
     },
   },
 

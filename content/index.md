@@ -12,7 +12,7 @@ announcement:
   to: https://abjad.xyz
 actions:
   - name: Get Started
-    to: /getting-started/introduction
+    to: /docs/introduction
   - name: GitHub
     variant: outline
     to: https://github.com/nlfts

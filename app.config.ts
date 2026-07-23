@@ -19,8 +19,8 @@ export default defineAppConfig({
     banner: {
       enable: false,
       showClose: true,
-      content: 'Welcome to **shadcn-docs-nuxt**',
-      to: 'https://github.com/ZTL-UwU/shadcn-docs-nuxt',
+      content: 'Welcome to **edu.nlfts.dev**',
+      to: 'https://github.com/nlfts/edu.nlfts.dev',
       target: '_blank',
       border: true,
     },
@@ -43,7 +43,7 @@ export default defineAppConfig({
         links: [{
           title: 'Getting Started',
           to: '/getting-started',
-          description: 'Start building your document with shadcn-docs-nuxt',
+          description: 'Start building your document with edu.nlfts.dev',
           icon: 'lucide:rocket',
         }, {
           title: 'Components',
@@ -94,7 +94,7 @@ export default defineAppConfig({
         },
         {
           icon: 'lucide:github',
-          to: 'https://github.com/ZTL-UwU/shadcn-docs-nuxt',
+          to: 'https://github.com/nlfts/edu.nlfts.dev',
           target: '_blank',
         },
       ],
@@ -114,7 +114,7 @@ export default defineAppConfig({
       codeCopyIcon: 'lucide:clipboard',
       editLink: {
         enable: true,
-        pattern: 'https://github.com/ZTL-UwU/shadcn-docs-nuxt/edit/main/www/content/:path',
+        pattern: 'https://github.com/nlfts/edu.nlfts.dev/edit/main/content/:path',
         text: 'Edit this page',
         icon: 'lucide:square-pen',
         placement: ['docsFooter'],
@@ -192,7 +192,7 @@ export default defineAppConfig({
         },
         {
           icon: 'lucide:github',
-          to: 'https://github.com/ZTL-UwU/shadcn-docs-nuxt',
+          to: 'https://github.com/nlfts/edu.nlfts.dev',
           target: '_blank',
         },
       ],
@@ -248,7 +248,7 @@ export default defineAppConfig({
         fallback: false,
         fallbackMessage: 'Please support us by disabling your ad blocker.',
         code: 'CW7ITKJN',
-        placement: 'shadcn-docs-nuxtvercelapp',
+        placement: 'edu.nlfts.devvercelapp',
         format: 'cover',
       },
     },
