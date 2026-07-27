@@ -11,10 +11,10 @@ export default defineNuxtConfig({
       routes: ['/'],
       failOnError: false,
     },
-    // Paksa semua route halaman jadi static HTML, kecuali API
+    // Paksa semua route halaman dan endpoint content jadi static.
+    // Nuxt Content butuh /api/_content/query/*.json saat navigasi client-side.
     routeRules: {
       '/**': { prerender: true },
-      '/api/**': { prerender: false },
     },
   },
 
