@@ -14,8 +14,8 @@ export default defineI18nConfig(() => ({
       'Next': 'Selanjutnya',
 
       // Footer
-      'FOOTER_CREDIT': 'Di Miliki Oleh [**NLFTs ltd x Prataryn**](https://abjad.xyz/)',
-      'Sponsor Me': 'Dukung Saya',
+      'FOOTER_CREDIT': 'Kerja Sama Antara [**NLFTs ltd x Prataryn**](https://abjad.xyz/)',
+      'Sponsor Me': 'Dukung Kami',
     },
   },
 }));
