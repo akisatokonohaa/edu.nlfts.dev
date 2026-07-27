@@ -256,6 +256,8 @@ export default defineAppConfig({
       enable: true,
       inAside: false,
       style: 'input',
+      placeholder: 'Search...',
+      placeholderDetailed: 'Search documentation...',
     },
     data: {},
   },
