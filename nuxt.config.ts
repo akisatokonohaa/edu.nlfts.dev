@@ -3,6 +3,12 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   extends: ['..'],
 
+  // Site URL — required by nuxt-og-image to generate absolute og:image URLs
+  site: {
+    url: 'https://edu.nlfts.dev',
+    name: 'Developer Program Member',
+  },
+
   // Full Static Site Generation — semua halaman di-prerender saat build
   ssr: true,
   nitro: {
