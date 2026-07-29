@@ -3,6 +3,12 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   extends: ['..'],
 
+  // Site URL — required by nuxt-og-image to generate absolute og:image URLs
+  site: {
+    url: 'https://edu.nlfts.dev',
+    name: 'Developer Program Member',
+  },
+
   // Full Static Site Generation — semua halaman di-prerender saat build
   ssr: true,
   nitro: {
@@ -11,10 +17,10 @@ export default defineNuxtConfig({
       routes: ['/'],
       failOnError: false,
     },
-    // Paksa semua route halaman jadi static HTML, kecuali API
+    // Paksa semua route halaman dan endpoint content jadi static.
+    // Nuxt Content butuh /api/_content/query/*.json saat navigasi client-side.
     routeRules: {
       '/**': { prerender: true },
-      '/api/**': { prerender: false },
     },
   },
 

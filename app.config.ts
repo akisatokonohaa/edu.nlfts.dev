@@ -1,8 +1,8 @@
 export default defineAppConfig({
   shadcnDocs: {
     site: {
-      name: 'shadcn-docs',
-      description: 'Beautifully designed Nuxt Content template built with shadcn-vue. Customizable. Compatible. Open Source.',
+      name: 'Developer Program Member',
+      description: 'Komunitas Developer Program Member — panduan, referensi, dan sumber daya untuk anggota program developer.',
       ogImage: '/hero.webp',
       ogImageComponent: 'ShadcnDocs',
       ogImageColor: 'light',
@@ -25,7 +25,7 @@ export default defineAppConfig({
       border: true,
     },
     header: {
-      title: 'shadcn-docs',
+      title: 'Developer Program Member',
       showTitle: true,
       logo: {
         light: '/logo.webp',

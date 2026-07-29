@@ -1,7 +1,7 @@
 ---
 title: Home
 navigation: false
-description: Beautifully designed Nuxt Content template built with shadcn-vue. Customizable. Compatible. Open Source.
+description: Bergabunglah dengan program eksklusif Anggota Developer NLFTs. Temukan modul, komponen, dan komunitas developer terbuka kami
 ---
 
 ::hero

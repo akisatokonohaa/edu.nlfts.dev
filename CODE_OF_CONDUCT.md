@@ -1,5 +1,6 @@
 # Kode Etik Perjanjian Kontributor
 
+
 ## Janji Kami
 
 Kami sebagai anggota, kontributor, dan pemimpin berjanji untuk menjadikan partisipasi dalam komunitas kami sebagai pengalaman bebas pelecehan bagi semua orang, tanpa memandang usia, ukuran tubuh, disabilitas yang terlihat atau tidak terlihat, etnis, karakteristik seks, identitas dan ekspresi gender, tingkat pengalaman, pendidikan, status sosial ekonomi, kewarganegaraan, penampilan pribadi, ras, kasta, warna kulit, agama, atau identitas dan orientasi seksual.
