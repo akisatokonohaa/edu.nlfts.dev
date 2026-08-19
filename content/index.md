@@ -25,7 +25,7 @@ actions:
 ---
 
 #title
-Developer Program for all :br  Members.
+Indonesian Student Developers.
 
 #description
 Bergabunglah dengan program eksklusif Anggota Developer NLFTs. Temukan modul, komponen, dan komunitas developer terbuka kami

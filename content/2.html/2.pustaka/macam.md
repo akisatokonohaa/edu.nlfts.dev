@@ -2,6 +2,12 @@
 title: Koleksi Lengkap Tag HTML Langka
 description: Referensi lengkap tag-tag HTML yang jarang digunakan, dilengkapi dengan contoh kode dan hasil preview.
 icon: i-lucide-code-xml
+authors:
+  - name: Kin You
+    username: davingm
+    avatar: https://www.github.com/davingm.png
+    to: https://github.com/davingm
+    target: _blank
 ---
 
 ::alert{icon="i-lucide-compass" color="primary"}
