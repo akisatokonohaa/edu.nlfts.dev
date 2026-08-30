@@ -2,7 +2,7 @@ name: Sync Fork
 
 on:
   schedule:
-    - cron: "0 * * * *" # setiap jam
+    - cron: "0 */12 * * *"
   workflow_dispatch:
 
 permissions:
