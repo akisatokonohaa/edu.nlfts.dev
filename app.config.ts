@@ -28,8 +28,8 @@ export default defineAppConfig({
       title: 'Developer Program Member',
       showTitle: true,
       logo: {
-        light: '/logo.webp',
-        dark: '/logo.webp',
+        light: '/brand/edu.svg',
+        dark: '/brand/edu-white.svg',
       },
       border: false,
       darkModeToggle: true,
