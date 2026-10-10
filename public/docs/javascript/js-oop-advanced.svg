@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">OOP Lanjutan JavaScript</title><desc id="desc">Diagram inheritance, encapsulation, dan polymorphism JavaScript.</desc>
+  <rect width="1200" height="630" rx="36" fill="#101827"/><circle cx="1050" cy="70" r="250" fill="#c084fc" opacity=".13"/>
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="#172235" stroke="#334155" stroke-width="2"/>
+  <g font-family="Arial,sans-serif" text-anchor="middle"><rect x="420" y="155" width="250" height="78" rx="18" fill="#35244a" stroke="#c084fc" stroke-width="3"/><text x="545" y="204" fill="#e9d5ff" font-size="26">Parent class</text><path d="M545 235v55m0 0-195 65m195-65 195 65" fill="none" stroke="#c084fc" stroke-width="6"/><rect x="245" y="355" width="205" height="70" rx="16" fill="#202d40"/><rect x="640" y="355" width="205" height="70" rx="16" fill="#202d40"/><text x="347" y="399" fill="#cbd5e1" font-size="24">Child A</text><text x="742" y="399" fill="#cbd5e1" font-size="24">Child B</text></g>
+  <text x="120" y="492" fill="#fff" font-family="Arial,sans-serif" font-size="42" font-weight="700">OOP Lanjutan</text><text x="120" y="532" fill="#94a3b8" font-family="Arial,sans-serif" font-size="22">Inheritance, encapsulation, polymorphism</text>
+</svg>

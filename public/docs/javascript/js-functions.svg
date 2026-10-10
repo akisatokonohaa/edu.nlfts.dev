@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Fungsi JavaScript</title><desc id="desc">Visualisasi fungsi JavaScript yang menerima input dan menghasilkan output.</desc>
+  <rect width="1200" height="630" rx="36" fill="#101827"/><circle cx="1050" cy="70" r="250" fill="#f472b6" opacity=".13"/>
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="#172235" stroke="#334155" stroke-width="2"/>
+  <rect x="160" y="235" width="180" height="100" rx="18" fill="#3d2440" stroke="#f472b6" stroke-width="4"/><text x="250" y="298" text-anchor="middle" fill="#f9a8d4" font-family="monospace" font-size="28">input</text>
+  <path d="M350 285h130m-25-22 25 22-25 22" fill="none" stroke="#f472b6" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="485" y="210" width="235" height="150" rx="22" fill="#202d40" stroke="#f472b6" stroke-width="4"/><text x="602" y="270" text-anchor="middle" fill="#fff" font-family="monospace" font-size="26">function()</text><text x="602" y="315" text-anchor="middle" fill="#f9a8d4" font-family="monospace" font-size="24">return</text>
+  <text x="120" y="440" fill="#fff" font-family="Arial,sans-serif" font-size="46" font-weight="700">Fungsi JavaScript</text><text x="120" y="488" fill="#94a3b8" font-family="Arial,sans-serif" font-size="24">Parameter, return value, dan arrow function</text>
+</svg>
