@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Instalasi dan Setup JavaScript</title><desc id="desc">Menyiapkan browser, editor, dan Node.js untuk belajar JavaScript.</desc>
+  <rect width="1200" height="630" rx="36" fill="#101827"/><circle cx="1050" cy="70" r="250" fill="#38bdf8" opacity=".12"/>
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="#172235" stroke="#334155" stroke-width="2"/>
+  <text x="120" y="205" fill="#38bdf8" font-family="monospace" font-size="27">$ node --version</text><text x="120" y="260" fill="#cbd5e1" font-family="monospace" font-size="27">v22.0.0</text>
+  <rect x="760" y="170" width="220" height="180" rx="20" fill="#202d40" stroke="#38bdf8" stroke-width="4"/><path d="M790 380h160m-80-30v30" stroke="#38bdf8" stroke-width="10" stroke-linecap="round"/>
+  <text x="120" y="430" fill="#fff" font-family="Arial,sans-serif" font-size="46" font-weight="700">Instalasi &amp; Setup</text><text x="120" y="478" fill="#94a3b8" font-family="Arial,sans-serif" font-size="24">Browser, code editor, dan Node.js</text>
+</svg>

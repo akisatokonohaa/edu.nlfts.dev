@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Objek dan OOP Dasar JavaScript</title><desc id="desc">Ilustrasi class dan object dalam JavaScript.</desc>
+  <rect width="1200" height="630" rx="36" fill="#101827"/><circle cx="1050" cy="70" r="250" fill="#818cf8" opacity=".13"/>
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="#172235" stroke="#334155" stroke-width="2"/>
+  <rect x="220" y="165" width="250" height="115" rx="20" fill="#27284b" stroke="#818cf8" stroke-width="4"/><text x="345" y="235" text-anchor="middle" fill="#c7d2fe" font-family="monospace" font-size="30">class</text>
+  <path d="M345 285v65m0 0-120 55m120-55 120 55" fill="none" stroke="#818cf8" stroke-width="6"/>
+  <rect x="145" y="400" width="165" height="65" rx="14" fill="#202d40"/><rect x="380" y="400" width="165" height="65" rx="14" fill="#202d40"/><text x="228" y="442" text-anchor="middle" fill="#cbd5e1" font-family="monospace" font-size="22">object A</text><text x="462" y="442" text-anchor="middle" fill="#cbd5e1" font-family="monospace" font-size="22">object B</text>
+  <text x="650" y="250" fill="#fff" font-family="Arial,sans-serif" font-size="42" font-weight="700">Objek &amp; OOP Dasar</text><text x="650" y="298" fill="#94a3b8" font-family="Arial,sans-serif" font-size="24">Class, property, dan method</text>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Modul dan NPM JavaScript</title><desc id="desc">Modul kode yang terhubung dan package JavaScript.</desc>
+  <rect width="1200" height="630" rx="36" fill="#101827"/><circle cx="1050" cy="70" r="250" fill="#facc15" opacity=".12"/>
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="#172235" stroke="#334155" stroke-width="2"/>
+  <g stroke="#facc15" stroke-width="5" fill="none"><path d="M335 230h180m0 0 100-70m-100 70 100 70m-100-70v130"/></g>
+  <g fill="#332f1c" stroke="#facc15" stroke-width="3"><rect x="190" y="190" width="145" height="80" rx="16"/><rect x="615" y="120" width="150" height="80" rx="16"/><rect x="615" y="260" width="150" height="80" rx="16"/><rect x="440" y="360" width="150" height="80" rx="16"/></g>
+  <g fill="#fef08a" font-family="monospace" font-size="23" text-anchor="middle"><text x="262" y="240">app.js</text><text x="690" y="170">utils.js</text><text x="690" y="310">data.js</text><text x="515" y="410">npm</text></g>
+  <text x="825" y="245" fill="#fff" font-family="Arial,sans-serif" font-size="42" font-weight="700">Modul &amp; NPM</text><text x="825" y="292" fill="#94a3b8" font-family="Arial,sans-serif" font-size="23">ES Modules dan package</text>
+</svg>
