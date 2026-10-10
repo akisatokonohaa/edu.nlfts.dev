@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Struktur Kendali JavaScript</title><desc id="desc">Diagram percabangan alur kendali pada program JavaScript.</desc>
+  <rect width="1200" height="630" rx="36" fill="#101827"/><circle cx="1050" cy="70" r="250" fill="#34d399" opacity=".12"/>
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="#172235" stroke="#334155" stroke-width="2"/>
+  <path d="M600 172v55m0 0-145 85m145-85 145 85M455 312v65m290-65v65M455 377h290" fill="none" stroke="#34d399" stroke-width="8" stroke-linecap="round"/>
+  <path d="m600 227 52 30-52 30-52-30z" fill="#183e3b" stroke="#34d399" stroke-width="4"/><rect x="380" y="370" width="150" height="62" rx="14" fill="#183e3b" stroke="#34d399" stroke-width="3"/><rect x="670" y="370" width="150" height="62" rx="14" fill="#183e3b" stroke="#34d399" stroke-width="3"/>
+  <text x="120" y="492" fill="#fff" font-family="Arial,sans-serif" font-size="42" font-weight="700">Struktur Kendali</text><text x="120" y="530" fill="#94a3b8" font-family="Arial,sans-serif" font-size="22">Percabangan dan perulangan</text>
+</svg>

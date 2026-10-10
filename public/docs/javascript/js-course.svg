@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Belajar JavaScript</title>
+  <desc id="desc">Ilustrasi kode JavaScript untuk belajar pengembangan web interaktif.</desc>
+  <rect width="1200" height="630" rx="36" fill="#101827"/>
+  <circle cx="1050" cy="70" r="250" fill="#f7df1e" opacity=".1"/>
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="#172235" stroke="#334155" stroke-width="2"/>
+  <rect x="72" y="72" width="1056" height="58" rx="28" fill="#202d40"/><path d="M72 102h1056v28H72z" fill="#202d40"/>
+  <g fill="#f7df1e"><circle cx="104" cy="101" r="5"/><circle cx="136" cy="101" r="5"/><circle cx="168" cy="101" r="5"/></g>
+  <g font-family="monospace" font-size="25" fill="#cbd5e1"><text x="122" y="207">const</text><text x="220" y="207" fill="#f7df1e">future</text><text x="320" y="207">= "web";</text><text x="122" y="267">function</text><text x="262" y="267" fill="#8ab4f8">build</text><text x="350" y="267">() { ... }</text></g>
+  <rect x="760" y="180" width="210" height="210" rx="20" fill="#f7df1e"/>
+  <text x="865" y="322" text-anchor="middle" fill="#111827" font-family="Arial,sans-serif" font-size="92" font-weight="700">JS</text>
+  <text x="122" y="432" fill="#fff" font-family="Arial,sans-serif" font-size="48" font-weight="700">Belajar JavaScript</text>
+  <text x="122" y="478" fill="#94a3b8" font-family="Arial,sans-serif" font-size="24">Dari dasar hingga aplikasi web interaktif</text>
+</svg>
